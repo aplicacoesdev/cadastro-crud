@@ -1,34 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## 🌟 CRUD Clientes 🌟
 
-## Getting Started
+![Intermediário](https://img.shields.io/badge/intermediário-3f50e7?style=for-the-badge)
+![Projeto Finalizado](https://img.shields.io/badge/projeto%20finalizado-00a154?style=for-the-badge)
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Firebase](https://img.shields.io/badge/firebase-a09021?style=for-the-badge&logo=firebase&logoColor=ffad84)
 
-First, run the development server:
+![Gif mostrando o funcionamento da aplicação](https://github.com/aplicacoesdev/docs/blob/main/crud-clientes/imagens/main.gif?raw=true)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Aplicação de CRUD de clientes armazenados no Firebase
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 📝 Requisitos Funcionais 📝
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- Deve ser possível criar um novo cliente passando nome e idade
+- Cada cliente deve possuir um id único
+- Os clientes devem ser exibidos no formato de tabela com os seguintes campos:
+  - Nome
+  - Idade
+  - Botões de ação para exclusão e edição
+- Deve ser possível alterar um cliente
+- O id do cliente não deve ser alterável
+- Deve ser possível excluir o cliente
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+### 📝 Funcionalidades Extras 📝
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- Adicionar a possibilidade de mudar o tema da aplicação para claro ou escuro.
 
-## Learn More
+### 💡 Recursos úteis para o desenvolvimento desse projeto 💡
 
-To learn more about Next.js, take a look at the following resources:
+#### 📚 Cursos da formação sugeridos 📚:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Especialista.DEV > Trilha React&Next > Fundamentos de React
+- Especialista.DEV > Trilha React&Next > React com Tailwind CSS
+- Especialista.DEV > Trilha React&Next > Next.JS
+- Especialista.DEV > Trilha Infraestrutura > Firestore
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+#### 📰 Artigos do Blog da Formação 📰:
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [Aprendendo a lidar com erros](https://blog.formacao.dev/aprendendo-a-lidar-com-erros/)
+- [Qual a diferença entre o Cloud Firestore e o Realtime Database?](https://blog.formacao.dev/qual-a-diferenca-entre-o-cloud-firestore-e-o-realtime-database/)
